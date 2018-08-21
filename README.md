@@ -45,7 +45,8 @@ ex) ```pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  ```
 ```
 1. $ sudo apt-get install python3-pip python3-dev python-virtualenv python3-numpy python3-tk  
 2. $ sudo pip3 install matplotlib cvxopt scipy sklearn  
-3. $ sudo pip3 install opencv-python tensorflow  ```
+3. $ sudo pip3 install opencv-python tensorflow  
+```
 
 ### Note
 YOLO implementation are simple refactoring of [Peng Zhang's implementation](https://github.com/hizhangp/yolo_tensorflow) for lab.
