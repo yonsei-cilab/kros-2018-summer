@@ -28,7 +28,6 @@ ex) pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"
 
 4. $ pip install scipy  
 5. $ pip install sklearn  
-추가로 위의 2개의 package도 설치  
 
 #### Package download for Windows + python 3.XX
 1. https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy  
