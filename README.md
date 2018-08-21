@@ -22,7 +22,7 @@
 #### Package download for Windows + python 3.6
 1. [여기](https://drive.google.com/open?id=1k707gyg--Lb_0uTTmBp7_BsllWR8gofH) 에서 .whl 파일 5개 다운로드  
 2. win+R -> cmd 를 입력하여 명령 프롬프트 창을 연다.  
-3. ``` pip install ".whl파일 다운로드 경로"  ```
+3. ``` pip install ".whl파일 다운로드 경로"  ```   
 ex) ```pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  ```
 위 명령어를 사용하여 1번부터 5번까지 설치  
 
