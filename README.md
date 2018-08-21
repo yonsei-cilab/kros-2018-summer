@@ -26,7 +26,7 @@
 ex) pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  
 위 명령어를 사용하여 1번부터 5번까지 설치  
 
-4. '''pip install scipy  '''
+4. ```pip install scipy  ```
 5. $ pip install sklearn  
 
 #### Package download for Windows + python 3.XX
