@@ -42,7 +42,8 @@ ex) ```pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  ```
 6. ``` pip install tensorflow  ```
 
 #### Package download for Ubuntu 16.04
-```1. $ sudo apt-get install python3-pip python3-dev python-virtualenv python3-numpy python3-tk  
+```
+1. $ sudo apt-get install python3-pip python3-dev python-virtualenv python3-numpy python3-tk  
 2. $ sudo pip3 install matplotlib cvxopt scipy sklearn  
 3. $ sudo pip3 install opencv-python tensorflow  ```
 
