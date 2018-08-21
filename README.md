@@ -22,7 +22,7 @@
 #### Package download for Windows + python 3.6
 1. [여기](https://drive.google.com/open?id=1k707gyg--Lb_0uTTmBp7_BsllWR8gofH) 에서 .whl 파일 5개 다운로드  
 2. win+R -> cmd 를 입력하여 명령 프롬프트 창을 연다.  
-3. $ pip install ".whl파일 복사한 경로"  
+3. $ pip install ".whl파일 다운로드 경로"  
 ex) pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  
 위 명령어를 사용하여 1번부터 5번까지 설치  
 
@@ -33,10 +33,10 @@ ex) pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"
 #### Package download for Windows + python 3.XX
 1. https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy  
 위 주소에서 자신에게 맞는 python 버전으로 numpy+mkl 설치  
-$ pip install ".whl파일 설치한 경로"  
+$ pip install ".whl파일 다운로드 경로"  
 2. https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv  
 위 주소에서 자신에게 맞는 python 버전으로 opencv 설치  
-$ pip install ".whl파일 설치한 경로"  
+$ pip install ".whl파일 다운로드 경로"  
 3. $ pip install scipy  
 4. $ pip install sklearn  
 5. $ pip install cvxopt  
