@@ -25,8 +25,9 @@
 3. ``` pip install ".whl파일 다운로드 경로"  ```   
 ex) ```pip install "C:\tensorflow-1.10.0-cp36-cp36m-win_amd64.whl"  ```  
 위 명령어를 사용하여 tensorflow를 가장 먼저 설치
-4. 그 후 나머지 다운받은 4개의 .whl 파일 설치
-5. ```pip install scipy  ```
+4. 그 후 위와 같은 명령어로 나머지 다운받은 4개의 .whl 파일 설치
+5. 추가적으로 아래의 3개 패키지도 설치  
+```pip install scipy  ```
 6. ``` pip install sklearn  ```
 7. ``` pip install matplotlib  ```
 
