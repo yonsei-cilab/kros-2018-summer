@@ -32,7 +32,8 @@ ex) ```pip install "C:\numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  ```
 7. ``` pip install matplotlib  ```
 
 > 기존에 "여기" 에서 다운받으셨던 분들은 .whl 파일 5개가 수정되었으니 다시 다운받아주시고 기존에 설치한 패키지를 아래의 명령어로 모두 삭제해줍니다.  
-```pip uninstall numpy tensorflow cvxopt mkl opencv-python```
+```pip uninstall numpy tensorflow cvxopt mkl opencv-python```  
+그리고 위의 1번부터 다시 설치하시면 됩니다.
 
 #### Package download for Windows + python 3.XX
 1. ``` pip install tensorflow  ```
@@ -48,7 +49,7 @@ tensorflow를 설치하며 함께 설치된 기존의 numpy를 삭제해야함
 6. ``` pip install sklearn  ```
 7. ``` pip install cvxopt  ```
 8. ``` pip install matplotlib  ```  
-
+> tensorflow를 먼저 설치하고 함께 설치된 numpy를 삭제하는 순서가 추가되었으니 참고하시기 
 
 #### Package download for Ubuntu 16.04
 ```
