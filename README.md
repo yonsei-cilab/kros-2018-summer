@@ -23,23 +23,29 @@
 1. [여기](https://drive.google.com/open?id=1k707gyg--Lb_0uTTmBp7_BsllWR8gofH) 에서 .whl 파일 5개 다운로드  
 2. win+R -> cmd 를 입력하여 명령 프롬프트 창을 연다.  
 3. ``` pip install ".whl파일 다운로드 경로"  ```   
-ex) ```pip install "C:\1_numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  ```
-위 명령어를 사용하여 1번부터 5번까지 설치  
+ex) ```pip install "C:\numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  ```
+위 명령어를 사용하여 tensorflow를 가장 먼저 설치
+4. ``` pip uninstall numpy  ```   
+기존 numpy 삭제 후 나머지 다운받은 4개의 .whl 파일 설치
 
-4. ```pip install scipy  ```
-5. ``` pip install sklearn  ```
+5. ```pip install scipy  ```
+6. ``` pip install sklearn  ```  
+7. ``` pip install matplotlib  ```  
 
 #### Package download for Windows + python 3.XX
-1. https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy  
+1. ``` pip install tensorflow  ```
+2. ``` pip uninstall numpy  ```   
+tensorflow를 설치하며 함께 설치된 기존의 numpy를 삭제해야함
+3. https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy  
 위 주소에서 자신에게 맞는 python 버전으로 numpy+mkl 설치  
 ``` pip install ".whl파일 다운로드 경로"  ```
-2. https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv  
+4. https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv  
 위 주소에서 자신에게 맞는 python 버전으로 opencv 설치  
 ``` pip install ".whl파일 다운로드 경로"  ```
-3. ``` pip install scipy  ```
-4. ``` pip install sklearn  ```
-5. ``` pip install cvxopt  ```
-6. ``` pip install tensorflow  ```
+5. ``` pip install scipy  ```
+6. ``` pip install sklearn  ```
+7. ``` pip install cvxopt  ```
+8. ``` pip install matplotlib  ```  
 
 #### Package download for Ubuntu 16.04
 ```
