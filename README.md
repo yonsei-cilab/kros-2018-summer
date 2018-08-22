@@ -25,8 +25,7 @@
 3. ``` pip install ".whl파일 다운로드 경로"  ```   
 ex) ```pip install "C:\numpy-1.15.0+mkl-cp36-cp36m-win_amd64.whl"  ```
 위 명령어를 사용하여 tensorflow를 가장 먼저 설치
-4. ``` pip uninstall numpy  ```   
-기존 numpy 삭제 후 나머지 다운받은 4개의 .whl 파일 설치
+4. 그 후 나머지 다운받은 4개의 .whl 파일 설치
 5. ```pip install scipy  ```
 6. ``` pip install sklearn  ```
 7. ``` pip install matplotlib  ```
@@ -49,7 +48,7 @@ tensorflow를 설치하며 함께 설치된 기존의 numpy를 삭제해야함
 6. ``` pip install sklearn  ```
 7. ``` pip install cvxopt  ```
 8. ``` pip install matplotlib  ```  
-> tensorflow를 먼저 설치하고 함께 설치된 numpy를 삭제하는 순서가 추가되었으니 참고하시기 
+> tensorflow를 가장 먼저 설치해야 오류가 없습니다. tensorflow를 가장 먼저 설치해주시기 바랍니다.
 
 #### Package download for Ubuntu 16.04
 ```
